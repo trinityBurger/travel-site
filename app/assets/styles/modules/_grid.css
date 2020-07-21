@@ -1,0 +1,3 @@
+.grid {
+  @mixin grid 1fr 2fr;
+}
