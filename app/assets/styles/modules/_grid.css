@@ -1,3 +1,8 @@
 .grid {
-  @mixin grid 1fr 2fr;
+  &.threeCol {
+    @mixin grid 1fr;
+    @mixin atMedium {
+      @mixin grid 1fr 2fr;
+    }
+  }
 }

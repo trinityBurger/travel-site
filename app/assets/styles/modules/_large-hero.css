@@ -1,4 +1,4 @@
-.large-hero {
+.O-largeHero {
   position: relative;
   border-bottom: 10px solid $mainBlue;
 
@@ -6,7 +6,7 @@
     display: block;
   }
 
-  &__text-content {
+  &__textContent {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);

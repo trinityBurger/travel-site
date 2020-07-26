@@ -6,30 +6,33 @@
     font-size: 2.875rem;
   }
 
-  &--centered {
+  &.-centered {
     text-align: center;
   }
-  &--orange {
+  &.-orange {
     color: $mainOrange;
   }
-  &--small {
+  &.-small {
     font-size: 1.2rem;
     @mixin atSmall {
       font-size: 1.875;
     }
   }
-  &--narrow {
+  &.-narrow {
     max-width: 550px;
     margin-left: auto;
     margin-right: auto;
   }
-  &--light {
+  &.-light {
     font-weight: 100;
   }
-  &--b-margin-small {
+  &.-bMarginSmall {
     margin-bottom: 0.5em;
   }
-  &--b-margin-large {
+  &.-bMarginLarge {
     margin-bottom: 1.6em;
+  }
+  &.-noTopMargin {
+    margin-top: 0;
   }
 }
