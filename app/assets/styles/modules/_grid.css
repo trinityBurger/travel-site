@@ -5,4 +5,10 @@
       @mixin grid 1fr 2fr;
     }
   }
+  &.twoCol {
+    @mixin grid 1fr;
+    @mixin atMedium {
+      @mixin grid 1fr 1fr;
+    }
+  }
 }
