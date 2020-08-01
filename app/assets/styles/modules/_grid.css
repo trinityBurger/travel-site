@@ -1,5 +1,5 @@
 .grid {
-  &.threeCol {
+  &.twoThird {
     @mixin grid 1fr;
     @mixin atMedium {
       @mixin grid 1fr 2fr;
@@ -10,5 +10,12 @@
     @mixin atMedium {
       @mixin grid 1fr 1fr;
     }
+  }
+  &.threeCol {
+    @mixin grid 1fr, 7rem;
+    @mixin atLarge {
+      @mixin grid 1fr 1fr 1fr, 3rem;
+    }
+    padding: 80px 0 0 0;
   }
 }

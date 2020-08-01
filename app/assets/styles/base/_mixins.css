@@ -10,14 +10,16 @@
   }
 }
 @define-mixin atLarge {
-  @media (min-width: 1200px) {
+  @media (min-width: 1010px) {
     @mixin-content;
   }
 }
-@define-mixin grid $cols: 1fr 2fr {
+@define-mixin grid $cols, $gap: 2rem {
   display: grid;
   grid-template-columns: $cols;
-  gap: 2rem;
+  gap: $gap;
   align-items: start;
   @mixin-content;
+  align-items: stretch;
+  justify-items: stretch;
 }
