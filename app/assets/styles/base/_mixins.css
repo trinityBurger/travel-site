@@ -4,6 +4,14 @@
   }
 }
 
+@define-mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
 @define-mixin atMedium {
   @media (min-width: 800px) {
     @mixin-content;
