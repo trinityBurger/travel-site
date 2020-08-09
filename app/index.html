@@ -32,9 +32,9 @@
           </div>
           <nav class="primaryNav -pullRight">
             <ul>
-              <li><a href="#our-beginning">Our Beginning</a></li>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#our-beginning" id="our-beginning-link">Our Beginning</a></li>
+              <li><a href="#features" id="features-link">Features</a></li>
+              <li><a href="#testimonials" id="testimonials-link">Testimonials</a></li>
             </ul>
           </nav>
         </div>
@@ -85,7 +85,7 @@
       </div>
     </div>
 
-    <div id="our-beginning" class="page-section">
+    <div id="our-beginning" class="page-section" data-matching-link="#our-beginning-link">
       <div class="wrapper">
         <h2 class="headline -centered -light -bMarginSmall">
           The first trip we planned <strong>was our own.</strong>
@@ -163,7 +163,11 @@
       </div>
     </div>
 
-    <div id="features" class="page-section page-section--blue genericContentContainer">
+    <div
+      id="features"
+      class="page-section page-section--blue genericContentContainer"
+      data-matching-link="#features-link"
+    >
       <div class="wrapper">
         <h2 class="A-sectionTitle">
           <img class="A-sectionTitle__icon" src="assets/images/icons/star.svg" />Our
@@ -211,7 +215,11 @@
       </div>
     </div>
 
-    <div id="testimonials" class="page-section -testimonails">
+    <div
+      id="testimonials"
+      class="page-section -testimonails"
+      data-matching-link="#testimonials-link"
+    >
       <div class="wrapper -noPaddingUntilMedium">
         <h2 class="A-sectionTitle -blue">
           <img class="A-sectionTitle__icon" src="assets/images/icons/comment.svg" />
