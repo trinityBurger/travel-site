@@ -1,17 +1,17 @@
 .grid {
-  &.twoThird {
+  &--about {
     @mixin grid 1fr;
     @mixin atMedium {
       @mixin grid 1fr 2fr;
     }
   }
-  &.twoCol {
+  &--features {
     @mixin grid 1fr;
     @mixin atMedium {
       @mixin grid 1fr 1fr;
     }
   }
-  &.threeCol {
+  &--testimonials {
     @mixin grid 1fr, 7rem;
     @mixin atLarge {
       @mixin grid 1fr 1fr 1fr, 3rem;

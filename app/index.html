@@ -28,7 +28,7 @@
         </div>
         <div class="siteHeader__menuContent">
           <div class="siteHeader__btnContainer">
-            <a class="A-btn openModal" href="#">Get in Touch</a>
+            <a class="btn openModal" href="#">Get in Touch</a>
           </div>
           <nav class="primaryNav -pullRight">
             <ul>
@@ -41,7 +41,7 @@
       </div>
     </header>
 
-    <div class="O-largeHero">
+    <div class="largeHero">
       <picture>
         <source
           srcset="
@@ -70,17 +70,17 @@
             assets/images/hero--smaller-hi-dpi.jpg 1280w
           "
           alt="coastal view of ocean and mountains"
-          class="O-largeHero__image"
+          class="largeHero__image"
         />
       </picture>
-      <div class="O-largeHero__textContent">
+      <div class="largeHero__textContent">
         <div class="wrapper">
-          <h1 class="O-largeHero__title">Your clarity.</h1>
-          <h2 class="O-largeHero__subtitle">One trip away.</h2>
-          <p class="O-largeHero__description">
+          <h1 class="largeHero__title">Your clarity.</h1>
+          <h2 class="largeHero__subtitle">One trip away.</h2>
+          <p class="largeHero__description">
             We create soul restoring journeys that inspire you to be you.
           </p>
-          <p><a class="A-btn -orange -large openModal" href="#">Get Started Today</a></p>
+          <p><a class="btn -orange -large openModal" href="#">Get Started Today</a></p>
         </div>
       </div>
     </div>
@@ -96,8 +96,9 @@
         </h3>
         <div class="wrapper -medium -bMargin">
           <img
+            class="lazyload"
             sizes="(min-width: 970px) 976px, 100vw"
-            srcset="
+            data-srcset="
               assets/images/first-trip-low-res.jpg  565w,
               assets/images/first-trip.jpg          976w,
               assets/images/first-trip-hi-dpi.jpg  1952w
@@ -105,12 +106,12 @@
             alt="Couple walking down a street."
           />
         </div>
-        <div class="grid twoThird">
+        <div class="grid--about">
           <div>
             <picture>
               <source
                 sizes="404px"
-                srcset="
+                data-srcset="
                   assets/images/our-start.jpg        404w,
                   assets/images/our-start-hi-dpi.jpg 808w
                 "
@@ -118,14 +119,15 @@
               />
               <source
                 sizes="320px"
-                srcset="
+                data-srcset="
                   assets/images/our-start-portrait.jpg        382w,
                   assets/images/our-start-portrait-hi-dpi.jpg 764w
                 "
                 media="(min-width:800px)"
               />
               <img
-                srcset="
+                class="lazyload"
+                data-srcset="
                   assets/images/our-start-landscape.jpg         800w,
                   assets/images/our-start-landscape-hi-dpi.jpg 1600w
                 "
@@ -174,7 +176,7 @@
           <strong>Features</strong>
         </h2>
 
-        <div class="grid twoCol">
+        <div class="grid--features">
           <div class="M-featureItem">
             <img class="M-featureItem__icon" src="assets/images/icons/globe.svg" />
             <h3 class="M-featureItem__title">Global Guides</h3>
@@ -225,12 +227,13 @@
           <img class="A-sectionTitle__icon" src="assets/images/icons/comment.svg" />
           Real <strong>Testimonials</strong>
         </h2>
-        <div class="grid threeCol genericContentContainer">
+        <div class="grid--testimonials genericContentContainer">
           <div class="testimonialItem">
             <div class="testimonialItem__photo">
               <img
+                class="lazyload"
                 sizes="160px"
-                srcset="
+                data-srcset="
                   assets/images/testimonial-jane.jpg        160w,
                   assets/images/testimonial-jane-hi-dpi.jpg 320w
                 "
@@ -250,8 +253,9 @@
           <div class="testimonialItem">
             <div class="testimonialItem__photo">
               <img
+                class="lazyload"
                 sizes="160px"
-                srcset="
+                data-srcset="
                   assets/images/testimonial-john.jpg        160w,
                   assets/images/testimonial-john-hi-dpi.jpg 320w
                 "
@@ -270,8 +274,9 @@
           <div class="testimonialItem">
             <div class="testimonialItem__photo">
               <img
+                class="lazyload"
                 sizes="160px"
-                srcset="
+                data-srcset="
                   assets/images/testimonial-cat.jpg        160w,
                   assets/images/testimonial-cat-hi-dpi.jpg 320w
                 "
@@ -298,7 +303,7 @@
           <span class="siteFooter__text"
             >Copyright &copy; 2019 Clear View Escapes. All rights reserved.</span
           >
-          <a class="A-btn -orange openModal" href="#">Get in Touch</a>
+          <a class="btn -orange openModal" href="#">Get in Touch</a>
         </p>
       </div>
     </footer>
