@@ -6,6 +6,7 @@ class ClientArea {
     this.form = document.querySelector(".clientArea__form")
     this.field = document.querySelector(".clientArea__input")
     this.contentArea = document.querySelector(".clientArea__contentArea")
+    this.events()
   }
 
   events() {
